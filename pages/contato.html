@@ -32,10 +32,10 @@
                         <a href="../index.html" class="navHome block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-yellow-100" aria-current="page">Home</a>
                     </li>
                     <li>
-                        <a href="pages/sobre.html" class="navSobre font-black block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-yellow-100 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Sobre Nós</a>
+                        <a href="sobre.html" class="navSobre block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-yellow-100 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Sobre Nós</a>
                     </li>
                     <li>
-                        <a href="contato.html" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-yellow-100 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Contato</a>
+                        <a href="#" class="block font-black py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-yellow-100 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Contato</a>
                     </li>
                     <li>
                         <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-yellow-100 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Features</a>
@@ -61,33 +61,17 @@
     </header>
     
     <h2 class="text-2xl md:text-4xl font-bold text-center mt-9 mb-6">
-        Nos Conheça
+        Contato
     </h2>
 
-    <div class="mt-9">
-        <h3 class="text-2xl md:text-2xl font-bold text-center mt-4"> Wilson Sinclair Bonato Junior</h3>
-        <p class="text-xl md:text-xl font-medium text-center mt-1 mb-4">RA: 115131 <a href="https://github.com/bonatowil" class="p-2"><i class="fa-brands fa-github"></i></a></p>
-    </div>
-
-    <div class="mt-9">
-        <h3 class="text-2xl md:text-2xl font-bold text-center mt-4"> Gustavo Henrique Leal </h3>
-        <p class="text-xl md:text-xl font-medium text-center mt-1 mb-4">RA: 115225 <a href="https://github.com/01Leal" class="p-2"><i class="fa-brands fa-github"></i></a></p>
-    </div>
-
-    <div class="mt-9">
-        <h3 class="text-2xl md:text-2xl font-bold text-center mt-4"> Luan Oliveira Campos</h3>
-        <p class="text-xl md:text-xl font-medium text-center mt-1 mb-4">RA: 115086 <a href="https://github.com/LuanCampos08" class="p-2"><i class="fa-brands fa-github"></i></a></p>
-    </div>
-
-    <div class="mt-9">
-        <h3 class="text-2xl md:text-2xl font-bold text-center mt-4"> Pedro Henrique Chiarotto</h3>
-        <p class="text-xl md:text-xl font-medium text-center mt-1 mb-4">RA: 115133 <a href="https://github.com/Pedrochiarotto" class="p-2"><i class="fa-brands fa-github"></i></a></p>
-    </div>
-
-    <div class="mt-9">
-        <h3 class="text-2xl md:text-2xl font-bold text-center mt-4"> Raul de Melo Vicente</h3>
-        <p class="text-xl md:text-xl font-medium text-center mt-1 mb-4">RA: 115097 <a href="https://github.com/raull1022222" class="p-2"><i class="fa-brands fa-github"></i></a></p>
-    </div>
+    <h3 class="text-xl font-semibold text-center mt-9 mb-4">Envie seu email para receber informações e promoções</h3>
+    
+    <form onsubmit="enviarEmail()" class="max-w-sm mx-auto"> 
+        <label for="email" class="block mb-2 text-xl font-medium text-black">Email</label>
+        <input required type="email" id="email" aria-describedby="helper-text-explanation" class="bg-gray-300 border placeholder-gray-400 border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="email@email.com">
+        <button type="submit" class="text-white bg-blue-700 mt-2 mb-9 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium w-full rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Enviar</button>
+    </form>
+  
 
     <script src="./main.js"></script>
 </body>
